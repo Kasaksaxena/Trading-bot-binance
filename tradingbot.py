@@ -19,7 +19,7 @@ class BasicBot:
                 side=SIDE_BUY if side.lower()=="buy" 
                 else SIDE_SELL,
                 type=ORDER_TYPE_MARKET,quantity=quantity)
-            logging.info("Market order:{order}")
+            logging.info(f"Market order:{side.upper()}{quantity}{symbol} - SUCCESS!")
             print("Market order executed" ,order)
         except Exception as e:
             logging.error(f"Market order failed:{e}")
