@@ -1,0 +1,2 @@
+2025-06-23 19:38:24,982 - root - INFO - Market order:{order}
+2025-06-23 19:41:35,767 - root - ERROR - Limit order failed:APIError(code=-1102): Mandatory parameter 'timeinforce' was not sent, was empty/null, or malformed.
